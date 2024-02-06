@@ -14,6 +14,7 @@ def generate_story(text):
 
   # Load spaCy pipeline
   nlp = spacy.load("en_core_web_sm")
+#   nlp = spacy.load("en_core_web_trf")
 
   # Process the text with spaCy
   doc = nlp(text)
